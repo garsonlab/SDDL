@@ -10,7 +10,7 @@ CSharpYield主要用于生成对应客户端代码
 CSharpAsync主要用于生成异步代码，可用于服务器
 ***两者皆可自适应修改***
 
-提供Window上**BuildCs.bat**一键使用
+提供Window上[**BuildCS.bat**](./BuildCS.bat)方便一键使用，使用时更改以下配置
 ``` bat
 set SLC=bin\Release\SLC.exe         #由SLC项目生成
 set Output=.\Protocol.cs            #生成的CS文件储存位置
