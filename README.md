@@ -2,14 +2,15 @@
 SDDL是一个结构化数据定义语言，可根据定义生成各种语言的数据结构和声明。
 Fork from [https://github.com/libla/SDDL](https://github.com/libla/SDDL)
 此处为工具类，使之使用便捷。具体SDDL文件定义语法异步[上方连接](https://github.com/libla/SDDL)或[README_SDDL](./README_SDDL.md)
- **VS2015编译通过**
+
+**VS2015编译通过**
 
 
 CSharpYield主要用于生成对应客户端代码
 CSharpAsync主要用于生成异步代码，可用于服务器
 ***两者皆可自适应修改***
 
-提供Window上**BuildCs.bat**
+提供Window上**BuildCs.bat**一键使用
 ``` bat
 set SLC=bin\Release\SLC.exe         #由SLC项目生成
 set Output=.\Protocol.cs            #生成的CS文件储存位置
